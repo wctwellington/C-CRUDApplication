@@ -1,2 +1,2 @@
 # C-CRUDApplication
-Application CRUD with C++
+Application CRUD with C++ and Qt

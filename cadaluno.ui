@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CadAluno</class>
+ <widget class="QDialog" name="CadAluno">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>314</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>..::     Cadastrar Aluno     ::..</string>
+  </property>
+  <widget class="QLabel" name="lblNome">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>54</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nome:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblEndereco">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>81</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Endereço:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblTelefone">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>54</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Telefone:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtNome">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>211</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="maxLength">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtEndereco">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>281</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="inputMask">
+    <string>999.999.999-99</string>
+   </property>
+   <property name="text">
+    <string>..-</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtTelefone">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>190</y>
+     <width>171</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="inputMask">
+    <string>(99) 9999-9999</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSair">
+   <property name="geometry">
+    <rect>
+     <x>269</x>
+     <y>250</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SAIR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnLimpar">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>250</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LIMPAR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSalvar">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>250</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SALVAR</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

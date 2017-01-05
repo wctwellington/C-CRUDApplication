@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Principal</class>
+ <widget class="QMainWindow" name="Principal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>522</width>
+    <height>337</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>522</width>
+    <height>337</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>522</width>
+    <height>337</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Principal</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>451</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="imagens.qrc">:/imagens/eteclogo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>522</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAluno">
+    <property name="title">
+     <string>Aluno</string>
+    </property>
+    <addaction name="actionCadastrar"/>
+    <addaction name="actionBuscar"/>
+    <addaction name="actionAlterar"/>
+   </widget>
+   <addaction name="menuAluno"/>
+  </widget>
+  <action name="actionCadastrar">
+   <property name="text">
+    <string>Cadastrar</string>
+   </property>
+  </action>
+  <action name="actionBuscar">
+   <property name="text">
+    <string>Buscar</string>
+   </property>
+  </action>
+  <action name="actionAlterar">
+   <property name="text">
+    <string>Alterar / Remover</string>
+   </property>
+  </action>
+  <action name="actionRemover">
+   <property name="text">
+    <string>Remover</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="imagens.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BuscarAlunos</class>
+ <widget class="QDialog" name="BuscarAlunos">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>749</width>
+    <height>414</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>..::     Buscar Alunos     ::..</string>
+  </property>
+  <widget class="QComboBox" name="cbPesquisarPor">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>161</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nome</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Endereço</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Telefone</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="lblPesquisarPor">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>91</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pesquisar Por:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtPesquisar">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>50</y>
+     <width>391</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableAlunos">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>711</width>
+     <height>231</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSair">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>360</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SAIR</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
